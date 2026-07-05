@@ -1,0 +1,47 @@
+{
+  "accuracy": 0.5978260869565217,
+  "macro_f1": 0.31200890896543065,
+  "per_class": {
+    "belly_pain": {
+      "precision": 0.2,
+      "recall": 0.3333333333333333,
+      "f1": 0.25,
+      "support": 3
+    },
+    "burping": {
+      "precision": 0.1111111111111111,
+      "recall": 0.5,
+      "f1": 0.18181818181818182,
+      "support": 2
+    },
+    "discomfort": {
+      "precision": 0.5,
+      "recall": 0.2,
+      "f1": 0.2857142857142857,
+      "support": 5
+    },
+    "hungry": {
+      "precision": 0.8793103448275862,
+      "recall": 0.6623376623376623,
+      "f1": 0.7555555555555555,
+      "support": 77
+    },
+    "tired": {
+      "precision": 0.05555555555555555,
+      "recall": 0.2,
+      "f1": 0.08695652173913043,
+      "support": 5
+    }
+  },
+  "best_epoch": 29,
+  "n_train": 365,
+  "n_val": 92,
+  "class_names": [
+    "belly_pain",
+    "burping",
+    "discomfort",
+    "hungry",
+    "tired"
+  ],
+  "model_params": 62821
+}

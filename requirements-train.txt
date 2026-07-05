@@ -1,0 +1,5 @@
+-r requirements.txt
+torch>=2.2
+scikit-learn>=1.4
+matplotlib>=3.8
+onnx>=1.16
